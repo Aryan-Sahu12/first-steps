@@ -6,7 +6,7 @@ const todoList = document.getElementById('todo-list');
 function addTodo() {
   const task = input.value.trim();
   if (task === '') {
-    alert('Please enter a task!');
+    alert('Please enter a task');
     return;
   }
 
