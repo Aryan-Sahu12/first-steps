@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple To-Do List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f8fa;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 30px;
+    }
+    #todo-input {
+      padding: 8px;
+      font-size: 1em;
+      width: 200px;
+    }
+    #add-btn {
+      padding: 8px 14px;
+      font-size: 1em;
+      margin-left: 5px;
+      background: #3578e5;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 300px;
+      width: 100%;
+    }
+    li {
+      background: #fff;
+      margin: 8px 0;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 4px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+    .delete-btn {
+      background: #f34444;
+      color: white;
+      border: none;
+      padding: 5px 11px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Simple To-Do List</h2>
+  <div>
+    <input id="todo-input" type="text" placeholder="Add a new task">
+    <button id="add-btn">Add</button>
+  </div>
+  <ul id="todo-list"></ul>
+  <script src="first.js"></script>
+</body>
+</html>
